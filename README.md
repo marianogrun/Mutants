@@ -23,7 +23,7 @@ HTTP method: GET
 
 C-Resetear base de datos:
 URL: {endpoint}/reboot
-HTTP method: POST
+HTTP method: GET
 
 5- Para poder ingresar un nuevo array de string y probar si se trata de un mutante llamar al servicio con la dirección: http://mutantswebservicev2-env.jp5mbq3wik.sa-east-1.elasticbeanstalk.com/mutant con método POST y mandar por parámetro la cadena con el formato admitido: Ejemplo: {"dna": ["TTGCA", "TCCCC", "TTTGG", "TATTT", "AATTC"] }
 
