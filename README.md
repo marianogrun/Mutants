@@ -2,7 +2,7 @@
 Web Service
 Mutantes
 
-1- en todos los casos se admiten solo jsons con arrays de cadenas de NxN y mayores o iguales a 4. Si son menores saldrá Forbidden.
+1- en todos los casos se admiten solo jsons con arrays de cadenas de NxN y mayores o iguales a 4. Si son menores el servicio devolverá "Forbidden"
 
 2- Reconoce todas las coincidencias que aparezcan de forma horizontal, vertical y oblícuoas (de izquierda a derecha yendo hacia abajo).
 
