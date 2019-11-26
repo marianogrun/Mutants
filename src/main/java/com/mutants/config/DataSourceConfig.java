@@ -13,7 +13,7 @@ public class DataSourceConfig {
     public DataSource getDataSource() {
         DataSourceBuilder dataSourceBuilder = DataSourceBuilder.create();
         dataSourceBuilder.driverClassName("com.mysql.jdbc.Driver");
-        dataSourceBuilder.url("jdbc:mysql://aa1xkthl8h2qtk2.cs7v8pkhvbmj.sa-east-1.rds.amazonaws.com:3306/mutantes"); //URL de base / puerto / nombre de la base
+        dataSourceBuilder.url("jdbc:mysql://instancia1.cs7v8pkhvbmj.sa-east-1.rds.amazonaws.com:3306/mutantes"); //URL de base / puerto / nombre de la base
         dataSourceBuilder.username("phpmyadmin");
         dataSourceBuilder.password("phpmyadmin");
         return dataSourceBuilder.build();
