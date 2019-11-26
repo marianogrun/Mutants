@@ -6,7 +6,7 @@ import javax.persistence.Entity;
 import org.springframework.context.annotation.Description;
 
 @Entity
-@DiscriminatorValue("NOT_HUMAN")
+@DiscriminatorValue("NOT_MUTANT")
 public class NotMutant extends Human {
 	
 	public NotMutant () {
